@@ -1,0 +1,18 @@
+package com.garbagecollector.entities;
+
+import com.garbagecollector.entities.Country;
+import java.math.BigDecimal;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-04-02T11:34:06")
+@StaticMetamodel(Region.class)
+public class Region_ { 
+
+    public static volatile SingularAttribute<Region, BigDecimal> regionId;
+    public static volatile SingularAttribute<Region, String> regionName;
+    public static volatile CollectionAttribute<Region, Country> countriesCollection;
+
+}
